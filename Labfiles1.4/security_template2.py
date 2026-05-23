@@ -4,7 +4,7 @@ import requests
 print("Script is running...")
 
 # ── Configuration ──────────────────────────────────────────────────────────────
-MODEL_FILE = "/home/labuser/Labfiles/Alert File1.json"
+MODEL_FILE = "/home/kali/Labfiles1.4/Alert File1.json"
 API_URL     = "http://localhost:11434/api/generate"  # ← correct Ollama endpoint :contentReference[oaicite:0]{index=0}
 API_KEY     = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImM1ZjAzMDZhLWYyNDQtNDRlMi04MjlmLTliMTQ4YjFjNzY3OSJ9._qyeg4cH1kF9i3nTQLaPvP4ZQffJwbYjutbEADbu58Y"
 MODEL_NAME  = "mistral:7b"                            # or "llama3", "phi3", etc.
