@@ -4,7 +4,7 @@ import requests
 print("Script is running...")
 
 # Load JSON file
-with open("/home/labuser/Labfiles/Alert File1.json", "r") as f:
+with open("/home/kali/Labfiles1.4/Alert File1.json", "r") as f:
 	model_data = json.load(f)
 	print("JSON loaded")
         
